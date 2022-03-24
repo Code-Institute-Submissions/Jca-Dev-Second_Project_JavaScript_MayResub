@@ -35,7 +35,7 @@
       quizBox.innerHTML = output.join('');
     }
 
-//---------------------------------------------------------------------------------------------------------------------------------
+//--------Slides---------------------------------------------------------------------------------------------------------------
 
     function showSlide(n) {
       slides[currentSlide].classList.remove('active-slide');
@@ -65,6 +65,69 @@
       showSlide(currentSlide - 1);
     }
 
+//----Questions--------------------------------------------------------------------------------------------------------------------
+    const submitButton = document.getElementById('submit');
+    const resultsBox = document.getElementById('results');
+    const quizBox = document.getElementById('quiz');
+    const theQuestions = [
+      {
+        question: "What part of a car brings it to a stop?",
+        answers: {
+          a: "wheels",
+          b: "breaks",
+          c: "engine",
+          d: "door",
+        },
+        correctAnswer: "b"
+      },
+      {
+        question: "Which one of these is NOT a car brand",
+        answers: {
+          a: "Bitter",
+          b: "Porsche",
+          c: "Dunt", 
+        },
+        correctAnswer: "c"
+      },
+      {
+        question: "Does a diesel engine have Glow Plugs or Spark Plugs?",
+        answers: {
+          a: "Spark Plugs",
+          b: "Glow Plugs",
+          c: "Neither"
+        },
+        correctAnswer: "b"
+      },
+      {
+        question: "a",
+        answers: {
+          a: "a",
+          b: "a",
+          c: "a"
+        },
+        correctAnswer: "a"
+      },
+      {
+        question: "a",
+        answers: {
+          a: "a",
+          b: "a",
+          c: "a"
+        },
+        correctAnswer: "a"
+      },
+      {
+        question: "a",
+        answers: {
+          a: "a",
+          b: "a",
+          c: "a",
+          d: "a"
+        },
+        correctAnswer: "a"
+      }
+    ];
+
 //---------------------------------------------------------------------------------------------------------------------------------
     buildQuiz();
   
@@ -77,6 +140,7 @@
     showSlide(currentSlide);
   
 // ----------------Event listeners-----------------------------------------------------------------------------------------------
+    submitButton.addEventListener('click', showResults);
     nextButton.addEventListener("click", showNextSlide);
     previousButton.addEventListener("click", showPreviousSlide);
   })();
