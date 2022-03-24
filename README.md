@@ -183,7 +183,7 @@ The page is now published and the link is above the source section.
 <ul>
     <li>My Mentor for his eagle eye and feedback</li>
     <li>Used Form template from my <a href="https://github.com/Jca-Dev/First-Project/blob/main/contact.html">First Project</a></li>
-    <li></li>
+    <li>background image from <a href="https://www.pexels.com/">Pexels</a></li>
     <li>Icons from <a href="https://fontawesome.com/v5/search?m=free" target="_blank" rel="noopener">https://fontawesome.com/v5/search?m=free</a></li>
     <li></li>
     <li></li>
