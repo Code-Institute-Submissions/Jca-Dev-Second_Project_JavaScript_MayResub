@@ -36,7 +36,6 @@
     }
 
 //--------Slides---------------------------------------------------------------------------------------------------------------
-
     function showSlide(n) {
       slides[currentSlide].classList.remove('active-slide');
       slides[n].classList.add('active-slide');
@@ -127,6 +126,46 @@
         correctAnswer: "a"
       }
     ];
+
+//---------------------------------------------------------------------------------------------------------------------------------  
+function showResults(){
+  
+  // get the answer box contents and put them into an answer container
+  const answerContainers = quizBox.querySelectorAll('.answers');
+
+  // create a box the holds the users answers
+  let numCorrect = 0;
+
+  theQuestions.forEach( (currentQuestion, questionNumber) => {
+
+    // find users selected answer
+    const answerPlate = answerContainers[questionNumber];
+    const selector = `input[name=question${questionNumber}]:checked`;
+    const userAnswer = (answerPlate.querySelector(selector) || {}).value;
+
+    
+    if(userAnswer === currentQuestion.correctAnswer){
+      // Put correct answer into the box of user answers
+      numCorrect++;
+      answerContainers[questionNumber].style.border = 'solid 2px green';
+    }
+    else{
+      // show the user they are incorrect
+      answerContainers[questionNumber].style.border = 'solid 2px red';
+    }
+  });
+
+  // display total correct answers
+  resultsBox.innerHTML = `${numCorrect} out of ${theQuestions.length}`;
+
+  // message depending on how the user did
+  if(numCorrect === 6) {
+    alert("CONGRATULATIONS! \nYou are an automotive quiz champion! \nThanks for playing.");
+  }
+  else{
+    alert("Good Try! \nMaybe you will do better next time? \nThanks for playing.");
+  }
+}
 
 //---------------------------------------------------------------------------------------------------------------------------------
     buildQuiz();
