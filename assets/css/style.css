@@ -106,6 +106,7 @@ h1{
 #results{
     color: white;
     font-size: 25px;
+    background-color: black;
 }
 
 #feedback_button{
