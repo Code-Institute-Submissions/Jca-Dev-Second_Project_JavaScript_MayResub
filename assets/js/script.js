@@ -164,7 +164,9 @@ function showResults(){
   }
   else{
     alert("Good Try! \nMaybe you will do better next time? \nThanks for playing.");
+    document.getElementById("circle").innerText = "Why dont you go back through and see what you got wrong? By using the Previous Button";
   }
+
 }
 
 //---------------------------------------------------------------------------------------------------------------------------------

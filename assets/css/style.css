@@ -28,7 +28,7 @@ h1{
 }
 
 #start_quiz {
-    background-color: white;
+    background-color: #11ff0696;
     position: absolute;
     top: 7em;
     left: 12.5em;
@@ -37,15 +37,18 @@ h1{
     text-decoration: none;
     color: black;
     font-size: 47px;
+    border: solid white 6px;
 }
 
 #start_quiz:hover {
-    background-color: rgb(255, 251, 0);
+    background-color: #11ff0696;
     font-weight: bold;
     padding: 2em;
+    top: 5em;
+    left: 10em;
 }
 
-.circle {
+#circle {
     font-size: 11px;
     background-color: #fff;
     color: #000;
@@ -62,6 +65,7 @@ h1{
 .question{
   font-size: 30px;
   margin-bottom: 10px;
+  font-weight: bold;
 }
 .answers {
   text-align: left;
@@ -73,6 +77,7 @@ h1{
     margin-top: 14px;
     width: fit-content;
     padding: 5px;
+    cursor: pointer;
 }
 
 .slide{
@@ -98,16 +103,17 @@ h1{
     background-color: white;
     position: absolute;
     top: 25em;
-    left: 36em;
+    left: 43em;
     padding: 10px;
     border-radius: 27%;
     text-decoration: none;
     color: black;
+    font-weight: bold;
 }
 
 #feedback_button:hover {
-    background-color: rgb(150, 3, 3);
-    box-shadow:rgb(150, 3, 3) 0 0 7px 3px;
+    background-color: rgba(255, 175, 2, 0.705);
+    box-shadow:rgb(255, 175, 2) 0 0 10px 7px;
 }
 
 button{
@@ -122,6 +128,23 @@ button{
 	
 }
 button:hover{
-	background-color: rgb(150, 3, 3);
-    box-shadow:rgb(150, 3, 3) 0 0 7px 3px;
+	background-color: #01ff01a6;
+    box-shadow: 0 0 10px 7px #01ff01;
+}
+
+#home_button {
+    background-color: white;
+    position: absolute;
+    top: 25em;
+    left: 30em;
+    padding: 10px;
+    border-radius: 27%;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+#home_button:hover {
+    background-color: rgba(255, 2, 2, 0.705);
+    box-shadow:rgb(255, 2, 2) 0 0 10px 7px;
 }
