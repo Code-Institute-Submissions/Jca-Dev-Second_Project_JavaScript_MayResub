@@ -75,7 +75,6 @@
           a: "wheels",
           b: "breaks",
           c: "engine",
-          d: "door",
         },
         correctAnswer: "b"
       },
@@ -120,8 +119,7 @@
         answers: {
           a: "a",
           b: "a",
-          c: "a",
-          d: "a"
+          c: "a"
         },
         correctAnswer: "a"
       }
