@@ -8,7 +8,7 @@ body{
     font-size: 20px;
     color: #333;
     text-align: center;
-    background-image: url(/assets/images/background.jpg);
+    background-image: url(/assets/images/background.jpg) alt="Image of a speedomiter from a car";
 }
 .quiz-container{
     position: relative;
