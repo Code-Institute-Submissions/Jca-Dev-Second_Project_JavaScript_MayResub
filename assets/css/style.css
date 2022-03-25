@@ -62,12 +62,12 @@ h1{
     background-color: #fff;
     color: #000;
     width: 22em;
-    left: 32em;
+    left: 28em;
     position: absolute;
     border-radius: 50%;
     padding: 16px;
     top: 15em;
-    z-index: 2;
+    z-index: 3;
     box-shadow: 0 0 7px 3px;
 }
 

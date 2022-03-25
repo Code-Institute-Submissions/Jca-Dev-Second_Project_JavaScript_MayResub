@@ -72,9 +72,9 @@
       {
         question: "What part of a car brings it to a stop?",
         answers: {
-          a: "wheels",
-          b: "breaks",
-          c: "engine",
+          a: "Wheels",
+          b: "Breaks",
+          c: "Engine",
         },
         correctAnswer: "b"
       },
@@ -97,31 +97,31 @@
         correctAnswer: "b"
       },
       {
-        question: "a",
+        question: "What does MPG mean?",
         answers: {
-          a: "a",
-          b: "a",
-          c: "a"
+          a: "Miles Per Gallon",
+          b: "Minutes Per Gallon",
+          c: "Meters Per Gallon"
         },
         correctAnswer: "a"
       },
       {
-        question: "a",
+        question: "What is the purpose of a rear spoiler?",
         answers: {
-          a: "a",
-          b: "a",
-          c: "a"
+          a: "Makes The Car Look Fast",
+          b: "Creates Downforce For Grip",
+          c: "Allows The Car To Jump Further"
         },
-        correctAnswer: "a"
+        correctAnswer: "b"
       },
       {
-        question: "a",
+        question: "How Does a turbo make a car faster?",
         answers: {
-          a: "a",
-          b: "a",
-          c: "a"
+          a: "Spins The Crankshaft Faster",
+          b: "Adds More Fuel Into The Engine",
+          c: "Sucks More Air Through The Engine"
         },
-        correctAnswer: "a"
+        correctAnswer: "c"
       }
     ];
 
