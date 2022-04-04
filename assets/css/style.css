@@ -26,7 +26,7 @@ h1{
     border: solid white;
     color: #fff;
     width: 21em;
-    left: 12em;
+    left: 27%;
     position: relative;
 }
 
@@ -39,7 +39,7 @@ h1{
     background-color: #11ff0696;
     position: absolute;
     top: 7em;
-    left: 12.5em;
+    left: 36%;
     padding: 10px;
     border-radius: 27%;
     text-decoration: none;
@@ -113,7 +113,7 @@ h1{
     background-color: white;
     position: absolute;
     top: 28em;
-    left: 43em;
+    left: 58%;
     padding: 10px;
     border-radius: 27%;
     text-decoration: none;
@@ -146,7 +146,7 @@ button:hover{
     background-color: white;
     position: absolute;
     top: 28em;
-    left: 30em;
+    left: 38%;
     padding: 10px;
     border-radius: 27%;
     text-decoration: none;
@@ -164,7 +164,7 @@ button:hover{
     border: solid white 4px;
     width: fit-content;
     position: absolute;
-    left: 19em;
+    left: 24%;
     padding: 0px 50px 100px 50px;
     box-shadow: 0 0 7px 4px grey;
     background-color: #000000c7;
@@ -181,7 +181,7 @@ button:hover{
     background-color: white;
     position: absolute;
     top: 23.4em;
-    left: 17em;
+    left: 44%;
     padding: 8px;
     border-radius: 27%;
     text-decoration: none;
@@ -201,7 +201,7 @@ button:hover{
     background-color: white;
     position: absolute;
     top: 23.4em;
-    left: 25em;
+    left: 63%;
     padding: 8px;
     border-radius: 27%;
     text-decoration: none;
@@ -222,12 +222,89 @@ button:hover{
 
 /*---------------@media sections----------------*/
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1000px) {
     body {
         margin: 0;
         background-image: none;
         background-color: #000;
     }
+
+    h1{
+        left: 6%;
+    }
+
+    #start_quiz {
+        left: 23%;
+    }
+
+    #start_quiz:hover{
+        background-color: #11ff0696;
+        position: absolute;
+        top: 7em;
+        left: 20%;
+        padding: 10px;
+        border-radius: 27%;
+        text-decoration: none;
+        color: black;
+        font-size: 47px;
+        border: solid white 6px;
+    }
+
+    .quiz-container{
+        font-size: 18px;
+        position: relative;
+        margin: 0;
+        width: 80%;
+        left: 5%;
+        top: 20%;
+        padding: 20px 39px 50px 39px;
+    }
+
+    #circle {
+        left: 0%;
+        top: 23%;
+    }
+
+    #results {
+        position: absolute;
+        top: 42%;
+        left: 40%;
+    }
+
+    #feedback_button {
+        top: 51%;
+        left: 56%;
+    }
+
+    #home_button {
+        top: 51%;
+        left: 28%;
+    }
+
+     /*-----Feedback Form-----*/
+
+     .feedback_form {
+        left: 7%;
+        width: 72%;
+        top: 4em;
+        padding: 0 50px 50px 50px;
+    }
+
+    #submit_form {
+        position: absolute;
+        top: 26em;
+        left: 15em;
+    }
+
+    #clear_form {
+        position: absolute;
+        top: 26em;
+        left: 23em;
+    }
+
+}
+
+@media screen and (max-width: 800px) {
     .quiz-container{
         font-size: 18px;
         position: relative;
@@ -242,16 +319,7 @@ button:hover{
         left: 0;
     }
     #start_quiz:hover{
-        background-color: #11ff0696;
-        position: absolute;
-        top: 7em;
         left: 0em;
-        padding: 10px;
-        border-radius: 27%;
-        text-decoration: none;
-        color: black;
-        font-size: 47px;
-        border: solid white 6px;
     }
 
     #circle {
@@ -284,7 +352,7 @@ button:hover{
     #previous {
         position: absolute;
         top: 27em;
-        left: -1em;
+        left: -6%;
     }
 
     #submit {

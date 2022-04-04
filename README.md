@@ -1,6 +1,6 @@
 <h1>Automotive Quiz</h1>
 <hr>
-site description and <a href="https://jca-dev.github.io/Second_Project_JavaScript/">link</a>
+The Automotive Quiz website is desgined for users to test their knowledge of the mechanical aspects of cars. Its is a quiz composing of 6 questions relating to how a car works.<a href="https://jca-dev.github.io/Second_Project_JavaScript/">Click Here</a> to go to the live website.
 <hr>
 
 !Responsive site test image
