@@ -1,6 +1,6 @@
-<h1>Quiz Land</h1>
+<h1>Automotive Quiz</h1>
 <hr>
-site description and link
+site description and <a href="https://jca-dev.github.io/Second_Project_JavaScript/">link</a>
 <hr>
 
 !Responsive site test image
