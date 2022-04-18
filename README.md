@@ -1,9 +1,10 @@
 <h1>Automotive Quiz</h1>
 <hr>
-The Automotive Quiz website is desgined for users to test their knowledge of the mechanical aspects of cars. Its is a quiz composing of 6 questions relating to how a car works.<a href="https://jca-dev.github.io/Second_Project_JavaScript/">Click Here</a> to go to the live website.
+The Automotive Quiz website is desgined for users to test their knowledge in the mechanical aspects of cars. Its is a quiz composing of 6 questions relating to how a car works.<br> 
+<a href="https://jca-dev.github.io/Second_Project_JavaScript/">Click Here</a> to go to the live website.
 <hr>
 
-!Responsive site test image
+![Responsive site test](/assets/images/responsive.jpg)
 <hr>
 
 <h1>User Experience (UX)</h1>
@@ -19,24 +20,13 @@ The Automotive Quiz website is desgined for users to test their knowledge of the
 <hr>
 <h1>Wireframe Pages Used For Planning</h1>
 <hr>
-
-![Wireframe Page]
-
-![Wireframe Page]
-
-![Wireframe Page]
-
-![Wireframe Page]
-
-![Wireframe Page]
-
-![Wireframe Page]
+<h2>No Wireframe was used to plan this project. I let the layout evolve as I coded.</h2>
 <hr>
 
 <h1>Design And Features</h1>
 <ol>
-    <li></li>
-    <li></li>
+    <li>Give the user an interactive quiz.</li>
+    <li>Responsive design for users to enjoy across multiple devices.</li>
 </ol>
 <h2>Imagery</h2>
 <ul>

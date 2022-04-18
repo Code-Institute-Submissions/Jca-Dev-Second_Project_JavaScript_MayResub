@@ -220,6 +220,44 @@ button:hover{
     margin: 0 0 30px 0;
 }
 
+/* ---------------Modal---------------*/
+.modal {
+    display: none;
+    height: 100%;
+    width: 100%; 
+    position: fixed;
+    left: 0;
+    top: -85px;
+    background-color: rgba(0,0,0,0.4);
+    z-index: 5;
+  }
+  
+  /* Modal Content/Box */
+  .modal-content {
+    margin: 15% auto;
+    width: 50%;
+    background-color: white; 
+    padding: 20px 20px 60px 20px;
+    box-shadow: 0 0 20px 10px #a3a3a3;
+  }
+  
+  /* The Close Button */
+  .close {
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 27%;
+    background-color: #a3a3a3;
+    color: black;
+    position: relative;
+    top: 25px;
+  }
+  
+  .close:hover, .close:focus {
+    cursor: pointer;
+    background-color: rgba(255, 2, 2, 0.705);
+    box-shadow:rgb(255, 2, 2) 0 0 10px 7px;
+  }
+
 /*---------------@media sections----------------*/
 
 @media screen and (max-width: 1000px) {
@@ -265,12 +303,6 @@ button:hover{
         top: 23%;
     }
 
-    #results {
-        position: absolute;
-        top: 42%;
-        left: 40%;
-    }
-
     #feedback_button {
         top: 56%;
         left: 56%;
@@ -280,6 +312,10 @@ button:hover{
         top: 56%;
         left: 28%;
     }
+
+    .modal-content {
+        margin: 50% auto; 
+      }
 
      /*-----Feedback Form-----*/
 
@@ -358,12 +394,6 @@ button:hover{
     #submit {
         position: absolute;
         top: 27em;
-        left: 5em;
-    }
-
-    #results {
-        position: absolute;
-        top: 21em;
         left: 5em;
     }
 
