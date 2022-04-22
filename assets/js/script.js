@@ -77,7 +77,7 @@
       question: "What part of a car brings it to a stop?",
       answers: {
         a: "Wheels",
-        b: "Breaks",
+        b: "Brakes",
         c: "Engine",
       },
       correctAnswer: "b"
@@ -128,59 +128,59 @@
       correctAnswer: "c"
     },
     {
-      question: "test",
+      question: "What sprays the fuel into the engine?",
       answers: {
-        a: "Spaster",
-        b: "Addsgine",
-        c: "Sucugh Te Engine"
+        a: "Fuel Pump",
+        b: "Injector",
+        c: "Hose Pipe"
+      },
+      correctAnswer: "b"
+    },
+    {
+      question: "How many cylinders does a V8 have?",
+      answers: {
+        a: "16",
+        b: "4",
+        c: "8"
       },
       correctAnswer: "c"
     },
     {
-      question: "test",
+      question: "Which has the most torque?",
       answers: {
-        a: "Spaster",
-        b: "Addsgine",
-        c: "Sucugh Te Engine"
+        a: "100lbs-ft",
+        b: "100nm",
+        c: "100lbs-in"
+      },
+      correctAnswer: "a"
+    },
+    {
+      question: "Which is the highest revving engine?",
+      answers: {
+        a: "V Engine",
+        b: "Flat Engine",
+        c: "Rotary Engine"
       },
       correctAnswer: "c"
     },
     {
-      question: "test",
+      question: "What does ABS stand for?",
       answers: {
-        a: "Spaster",
-        b: "Addsgine",
-        c: "Sucugh Te Engine"
+        a: "Anti-lock Brake Section",
+        b: "Anti-lock Brake System",
+        c: "Auto Brake System"
       },
-      correctAnswer: "c"
+      correctAnswer: "b"
     },
     {
-      question: "test",
+      question: "Have this one on me",
       answers: {
-        a: "Spaster",
-        b: "Addsgine",
-        c: "Sucugh Te Engine"
+        a: "Wrong Answer",
+        b: "Wrong Answer",
+        c: "Correct Answer"
       },
       correctAnswer: "c"
-    },
-    {
-      question: "test",
-      answers: {
-        a: "Spaster",
-        b: "Addsgine",
-        c: "Sucugh Te Engine"
-      },
-      correctAnswer: "c"
-    },
-    {
-      question: "test",
-      answers: {
-        a: "Spaster",
-        b: "Addsgine",
-        c: "Sucugh Te Engine"
-      },
-      correctAnswer: "c"
-    },
+    }
   ];
 
   //---------------------------------------------------------------------------------------------------------------------------------  
