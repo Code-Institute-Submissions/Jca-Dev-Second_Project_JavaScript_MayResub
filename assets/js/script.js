@@ -35,6 +35,14 @@
     quizBox.innerHTML = output.join('');
   }
 
+  function shuffleQuestions(theQuestions) {
+    for (let i = theQuestions.length - 1; i > 0; i--) {
+        const swap = Math.floor(Math.random() * (i + 1));
+        [theQuestions[i], theQuestions[swap]] = [theQuestions[swap], theQuestions[i]];
+      }
+}
+
+
   //--------Slides---------------------------------------------------------------------------------------------------------------
   function showSlide(n) {
     slides[currentSlide].classList.remove('active-slide');
@@ -167,6 +175,7 @@
   }
 
   //---------------------------------------------------------------------------------------------------------------------------------
+  shuffleQuestions(theQuestions);
   buildQuiz();
 
   // slides
