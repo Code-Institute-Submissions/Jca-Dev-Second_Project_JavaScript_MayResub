@@ -214,12 +214,12 @@
     resultsBox.innerHTML = `${numCorrect} out of ${theQuestions.length}`;
 
     // message depending on how the user did
-    if (numCorrect === 6) {
+    if (numCorrect >= 6) {
       document.getElementById("modal-t").innerText = "CONGRATULATIONS! \nYou are an automotive quiz champion! \nThanks for playing."
     } else if (numCorrect === 5) {
-      document.getElementById("modal-t").innerText = "Good Job! \n You've Almost got it \nMaybe you will do better next time? \nThanks for playing."
+      document.getElementById("modal-t").innerText = "Good Job! \nYou've Almost got it \nMaybe you will do better next time? \nThanks for playing."
     } else if (numCorrect === 3) {
-      document.getElementById("modal-t").innerText = "Halfway There! \n Still room for improvment \nMaybe you will do better next time? \nThanks for playing."
+      document.getElementById("modal-t").innerText = "Not Bad! \nStill room for improvment \nMaybe you will do better next time? \nThanks for playing."
     } else {
       document.getElementById("modal-t").innerText = "Oh Dear :( \nIt looks like you have a lot to learn \n Why not try again after some research? \nThanks for playing."
       document.getElementById("circle").innerText = "Why dont you go back through and see what you got wrong? By using the Previous Button";
