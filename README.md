@@ -108,7 +108,6 @@ The page is now published and the link is above the source section.
 <ul>
     <li>Google Chrome.</li>
     <li>Microsoft Edge.</li>
-    <li>Internet Explorer.</li>
     <li>Mozilla Firefox.</li>
 </ul>
 <h2>Devices</h2>
@@ -139,7 +138,7 @@ The page is now published and the link is above the source section.
 <ul>
    <li>W3C HTML picked up a br within a h2 and threw an error so fixed by removing the br from quiz.html.</li>
 
-   <li></li>
+   <li>Mozilla Firefox - the home feedback and clear buttons were too high and cutting into the feedback form box, fixed by adjusting css.</li>
 
    <li></li>
 
