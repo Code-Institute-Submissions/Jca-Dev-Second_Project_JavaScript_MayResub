@@ -10,11 +10,9 @@ The Automotive Quiz website is desgined for users to test their knowledge in the
 <h1>User Experience (UX)</h1>
 <h2>Goals</h2>
 <ul>
-    <li></li>
-    <li></li>
-    <li></li>
-    <li></li>
-    <li></li>
+    <li>Give the user a fun quiz to test their car knowledge.</li>
+    <li>Show a clean, clear, accessible and easily navigable website/quiz for the user.</li>
+    <li>Users return to play again and compete with thier friends.</li>
 </ul>
 
 <hr>
@@ -24,16 +22,14 @@ The Automotive Quiz website is desgined for users to test their knowledge in the
 <hr>
 
 <h1>Design And Features</h1>
-<ol>
+<ul>
     <li>Give the user an interactive quiz.</li>
     <li>Responsive design for users to enjoy across multiple devices.</li>
     <li>The questions are randomly loaded from a set of 12 posibilities for user reusability.</li>
-</ol>
+</ul>
 <h2>Imagery</h2>
 <ul>
-    <li></li>
-    <li></li>
-    <li></li>
+    <li>There is only the background image relating to a car as its an automotive quiz, there is only one image to reduce distraction for the user.</li>
 </ul>
 <h2>Site colors</h2>
 <ul>
@@ -42,8 +38,8 @@ The Automotive Quiz website is desgined for users to test their knowledge in the
 
 <h2>Font styles</h2>
 <ul>
-    <li></li>
-    <li></li>
+    <li>Libre Baskerville - is used for the heading because its clear and gives a mechanical feel.</li>
+    <li>M PLUS 1 - is used for the text body also because its clear and gives a mechanical feel.</li>
 </ul>
 <hr>
 <h2>Navigation</h2>
@@ -55,36 +51,53 @@ The Automotive Quiz website is desgined for users to test their knowledge in the
 
 <hr>
 
+<h2>Home Page</h2>
+<hr>
+   <ul>
+       <li>Simple clear display with an instant direction for the user to start the quiz via the lets get start button</li>
+   </ul>
+
+![Feedback Form](/assets/images/home.jpg)
+<hr>
+
+<h2>Quiz</h2>
+<hr>
+   <ul>
+       <li>Clear layout of questions and radio answers generated from javascript on slides.</li>
+       <li>Next, Previous and submit buttons are below the quiz box and clearly visable to the user.</li>
+       <li>Home and Feedback buttons are below the buttons stated above, clearly visable to the user allowing navigation away from the quiz at anytime.</li>
+   </ul>
+
+![Feedback Form](/assets/images/quiz.jpg)
+<hr>
+
 <h2>Feedback Form</h2>
 <hr>
    <ul>
-       <li></li>
-       <li></li>
-       <li></li>
+       <li>Simple, quick and easy to fill out so the user is more inclined to fill out the form.</li>
+       <li>The form collects the users first name, email address, quiz rating and feedback on the quiz.</li>
+       <li>The form allows site developers to make improvements to the UX from the feedback given.</li>
    </ul>
 
-![Contact Form]
+![Feedback Form](/assets/images/feedback.jpg)
 <hr>
 
 <h2>Footer</h2>
 <ul>
-    <li>The Footer floats on the bottom of the screen showing the user all the social media links to the company.</li>
-    <li>The Footer is designed not to be obtrusive to the user by being dark and thin with minimal content.</li>
+    <li>There is no Footer on this website to stop the user getting distracted from the quiz.</li>
 </ul>
 
-![Footer]
 <hr>
 
 <h1>Technologies Used</h1>
 <ul>
     <li>HTML5 - coding language.</li>
     <li>CSS3 - coding language.</li>
+    <li>JavaScript - coding language.</li>
     <li>Google Fonts - to import fonts used on the site.</li>
-    <li>Font Awesome - to import icons used on the site.</li>
     <li>Git - Version control by utilizing the Gitpod terminal to add and commit to Git then Push to GitHub.</li>
     <li>Git Hub - stores the project code and hosts the website.</li>
     <li>Visual Code Studio - system used to write code via Git</li>
-    <li>Balsamiq - to create the wireframes before coding the site</li>
     <li>Paint 3D - to create the logo and edit screenshots for the README.md</li>
     <li>Chrome Dev Tools - to action, review and test changes without having to commit and push to the website each time.</li>
     <li>Lighthouse - testing code.</li>
@@ -101,6 +114,21 @@ The project was deployed to GitHub Pages by:
     <li>Select Source dropdown list and select main</li>
 </ol>
 The page is now published and the link is above the source section.
+
+<br>
+
+<h2>Making a Local Clone</h2>
+<ol>
+<li>Log in to GitHub and locate the [GitHub Repository](https://github.com/)</li>
+<li>Under the repository name, click "Clone or download".</li>
+<li>To clone the repository using HTTPS, under "Clone with HTTPS", copy the link.</li>
+<li>Open Git Bash</li>
+<li>Change the current working directory to the location where you want the cloned directory to be made.</li>
+<li>Type `git clone`, and then paste the URL you copied in Step 3.</li>
+<li>Press Enter. Your local clone will be created.</li>
+</ol>
+
+Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository#cloning-a-repository-to-github-desktop) for retrieve pictures and more detailed explanations of the above process.
     
 <hr>
 <h1>Testing</h1>
@@ -125,7 +153,7 @@ The page is now published and the link is above the source section.
 <ul>
     <li><a href="https://validator.w3.org/" target="_blank" rel="noopener">W3C Markup Validation Service</a></li>
 
-![W3C HTML]
+![W3C HTML](/assets/images/html.jpg)
     <li><a href="https://jigsaw.w3.org/css-validator/" target="_blank" rel="noopener">W3C CSS Validation Service</a></li>
 
 ![W3C CSS](/assets/images/css.jpg)
@@ -139,18 +167,11 @@ The page is now published and the link is above the source section.
    <li>W3C HTML picked up a br within a h2 and threw an error so fixed by removing the br from quiz.html.</li>
 
    <li>Mozilla Firefox - the home feedback and clear buttons were too high and cutting into the feedback form box, fixed by adjusting css.</li>
-
-   <li></li>
-
-   <li></li>
-
-   <li></li>
-    
 </ul>
 
 <h2>Known Bugs</h2>
 <ul>
-    <li></li>
+    <li>In some smaller resolutions the title bar isnt displayed in the center of the screen.</li>
     <li></li>
 </ul>
 <hr>
@@ -161,4 +182,3 @@ The page is now published and the link is above the source section.
     <li>Used Form template from my <a href="https://github.com/Jca-Dev/First-Project/blob/main/contact.html" target="_blank" rel="noopener">First Project</a></li>
     <li>background image from <a href="https://www.pexels.com/" target="_blank" rel="noopener">Pexels</a></li>
     <li>Gathered information and troubleshooting from <a href="https://stackoverflow.com/" target="_blank" rel="noopener">Stackoverflow</li>
-    <li></li>
