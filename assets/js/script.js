@@ -34,14 +34,15 @@
     //  display the output box to the user
     quizBox.innerHTML = output.join('');
   }
-
+  
+  //  shuffle questions each DOM load
   function shuffleQuestions(theQuestions) {
-    var dead = theQuestions.splice(Math.floor(Math.random()*theQuestions.length),6);
+    var dead = theQuestions.splice(Math.floor(Math.random() * theQuestions.length), 6);
     for (let i = theQuestions.length - 1; i > 0; i--) {
-        const swap = Math.floor(Math.random() * (i + 1));
-        [theQuestions[i], theQuestions[swap]] = [theQuestions[swap], theQuestions[i]];
-      }
-}
+      const swap = Math.floor(Math.random() * (i + 1));
+      [theQuestions[i], theQuestions[swap]] = [theQuestions[swap], theQuestions[i]];
+    }
+  }
   //--------Slides---------------------------------------------------------------------------------------------------------------
   function showSlide(n) {
     slides[currentSlide].classList.remove('active-slide');

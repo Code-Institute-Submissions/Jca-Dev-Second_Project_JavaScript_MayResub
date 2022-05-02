@@ -27,6 +27,7 @@ The Automotive Quiz website is desgined for users to test their knowledge in the
 <ol>
     <li>Give the user an interactive quiz.</li>
     <li>Responsive design for users to enjoy across multiple devices.</li>
+    <li>The questions are randomly loaded from a set of 12 posibilities for user reusability.</li>
 </ol>
 <h2>Imagery</h2>
 <ul>
@@ -36,9 +37,7 @@ The Automotive Quiz website is desgined for users to test their knowledge in the
 </ul>
 <h2>Site colors</h2>
 <ul>
-    <li></li>
-    <li></li>
-    <li></li>
+    <li>The site uses a traffic light colour scheme, black (main), white (secondary), green - amber - red (tertiary).</li>
 </ul>
 
 <h2>Font styles</h2>
@@ -50,21 +49,10 @@ The Automotive Quiz website is desgined for users to test their knowledge in the
 <h2>Navigation</h2>
 <hr>
 <ul>
-    <li></li>
-    <li></li>
-    <li></li> 
-    <li></li>
+    <li>Navigation is displayed as buttons below the quiz, home (takes the user to index.html from any page), feedback (takes the user to feedback.html).</li>
+    <li>On the homepage (index.html) the user will see a big green button to start the quiz, clicking this button takes the user to quiz.html</li>
 </ul>
 
-<hr>
-
-<h2>Logo</h2>
-<hr>
-The Logo is as the top of each page about the title text. 
-<br>
-It shows the name of the company and a dumbell whith an orange + white background keeping with the sites color scheme.
-
-![Logo on the page]
 <hr>
 
 <h2>Feedback Form</h2>
@@ -141,16 +129,15 @@ The page is now published and the link is above the source section.
 ![W3C HTML]
     <li><a href="https://jigsaw.w3.org/css-validator/" target="_blank" rel="noopener">W3C CSS Validation Service</a></li>
 
-![W3C CSS]
+![W3C CSS](/assets/images/css.jpg)
     <li><a href="https://developers.google.com/web/tools/lighthouse" target="_blank" rel="noopener">Google Chrome Lighthouse</a></li>
 
-![Lighthouse] 
+![Lighthouse Test](/assets/images/lighthouse.jpg) 
 </ul>
 
 <h2>Bugs & Fixes</h2>
 <ul>
-    <li>
-    </li>
+   <li>W3C HTML picked up a br within a h2 and threw an error so fixed by removing the br from quiz.html.</li>
 
    <li></li>
 
@@ -171,9 +158,8 @@ The page is now published and the link is above the source section.
 <h2>Sources/Credits</h2>
 <hr>
 <ul>
-    <li>My Mentor for his eagle eye and feedback</li>
+    <li>My Mentors for their eagle eyes and feedback (mentor change during project)</li>
     <li>Used Form template from my <a href="https://github.com/Jca-Dev/First-Project/blob/main/contact.html" target="_blank" rel="noopener">First Project</a></li>
     <li>background image from <a href="https://www.pexels.com/" target="_blank" rel="noopener">Pexels</a></li>
-    <li>Icons from <a href="https://fontawesome.com/v5/search?m=free" target="_blank" rel="noopener">https://fontawesome.com/v5/search?m=free</a></li>
     <li>Gathered information and troubleshooting from <a href="https://stackoverflow.com/" target="_blank" rel="noopener">Stackoverflow</li>
     <li></li>
