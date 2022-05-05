@@ -172,7 +172,6 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 <h2>Known Bugs</h2>
 <ul>
     <li>In some smaller resolutions the title bar isnt displayed in the center of the screen.</li>
-    <li></li>
 </ul>
 <hr>
 <h2>Sources/Credits</h2>

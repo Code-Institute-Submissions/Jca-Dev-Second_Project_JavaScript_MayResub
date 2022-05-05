@@ -135,7 +135,6 @@ button{
 	border: 0px;
 	border-radius: 15px;
 	cursor: pointer;
-	
 }
 button:hover{
 	background-color: #01ff01a6;
@@ -486,4 +485,120 @@ button:hover{
         left: 4.7em;
     }
     
+}
+
+@media screen and (max-width: 320px) {
+
+    #start_quiz {
+        left: 15px;
+        top: 10em;
+        font-size: 30px;
+    }
+
+    #start_quiz:hover{
+        top: 10em;
+        left: 15px;
+        font-size: 30px;
+    }
+
+    h1 {
+        font-size: 25px;
+        left: 14%;
+        margin: 5px 0 0 0;
+    }
+
+    .question {
+        font-size: 18px;
+    }
+
+    .quiz-container{
+        font-size: 14px;
+        width: 69%;
+        padding: 40px 39px 20px 39px;    
+    }
+
+    button{
+        padding: 14px;
+        font-size: 15px;
+    }
+
+    #circle {
+        left: 3em;
+        top: 5em;
+        font-size: 10px;
+        padding: 16px;
+    }
+
+    #next {
+        top: 25em;
+        left: 6em;    
+    }
+
+    #previous {
+        position: absolute;
+        top: 25em;
+        left: -1em;
+    }
+
+    #submit {
+        position: absolute;
+        top: 25em;
+        left: 13em;
+    }
+
+    #feedback_button {
+        top: 24.3em;
+        left: 12em;
+        font-size: 18px;
+    }
+
+    #home_button {
+        top: 24.3em;
+        left: 1em;
+        font-size: 18px;
+
+    }
+
+    .modal {
+        width: 100%;
+    }
+
+    .modal-content {
+        margin: 0%;
+        width: 80%;
+        top: 7em;
+        left: 0.6em;
+        position: absolute;
+    }
+
+     /*-----Feedback Form-----*/
+
+    #feedback_font {
+        font-size: 13px;
+        margin: 0;
+        top: -2.5em;
+        left: 14px;
+        position: absolute;
+    }
+
+    .label {
+        padding: 5px 0 0 0;
+        font-size: 15px;
+    }
+
+    #form_info  {
+        left: 0.8em;
+    }
+
+    #submit_form {
+        font-size: 18px;
+        top: 19.9em;
+        left: 11em;
+    }
+
+    #clear_form {
+        font-size: 18px;
+        top: 19.9em;
+        left: 6em;
+    }
 }
