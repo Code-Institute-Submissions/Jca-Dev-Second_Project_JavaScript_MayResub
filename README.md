@@ -165,7 +165,6 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 <h2>Bugs & Fixes</h2>
 <ul>
    <li>W3C HTML picked up a br within a h2 and threw an error so fixed by removing the br from quiz.html.</li>
-
    <li>Mozilla Firefox - the home feedback and clear buttons were too high and cutting into the feedback form box, fixed by adjusting css.</li>
 </ul>
 
@@ -180,4 +179,5 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
     <li>My Mentors for their eagle eyes and feedback (mentor change during project)</li>
     <li>Used Form template from my <a href="https://github.com/Jca-Dev/First-Project/blob/main/contact.html" target="_blank" rel="noopener">First Project</a></li>
     <li>background image from <a href="https://www.pexels.com/" target="_blank" rel="noopener">Pexels</a></li>
+     <li>Icons from <a href="https://fontawesome.com/v5/search?m=free" target="_blank" rel="noopener">https://fontawesome.com/v5/search?m=free</a></li>
     <li>Gathered information and troubleshooting from <a href="https://stackoverflow.com/" target="_blank" rel="noopener">Stackoverflow</li>
