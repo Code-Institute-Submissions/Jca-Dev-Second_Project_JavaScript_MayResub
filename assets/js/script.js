@@ -34,7 +34,7 @@
     //  display the output box to the user
     quizBox.innerHTML = output.join('');
   }
-  
+
   //  shuffle questions each DOM load
   function shuffleQuestions(theQuestions) {
     var dead = theQuestions.splice(Math.floor(Math.random() * theQuestions.length), 6);

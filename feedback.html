@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,26 +11,30 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <title>Quiz Feedback</title>
 </head>
+
 <body>
-    <h1>Feedback</h1>
+    <h1>Feedback <a href="https://facebook.com" target="_blank" rel="noopener"
+            aria-label="Visit our Facebook page (opens in a new tab)"><i class="fab fa-facebook"></i></a>
+    </h1>
 
     <!-- Form -->
     <form class="feedback_form" action="https://formdump.codeinstitute.net/" method="post">
         <h2 class="h2" id="feedback_font">Please Give Us Your Feedback On The Quiz</h2>
 
         <label class="label" for="name">First Name</label>
-             <input type="text-input" name="name" placeholder=" Your Name" required>
+        <input type="text-input" name="name" placeholder=" Your Name" required>
         <label class="label" for="email">Email Address</label>
-            <input type="email" name="email" placeholder=" Optional">
+        <input type="email" name="email" placeholder=" Optional">
         <label class="label" for="qscore">Quiz Rating</label>
-            <select name="q-score" id="qscore" required>
-                <option value="">Select</option>
-                <option value="good">Good</option>
-                <option value="average">Average</option>
-                <option value="bad">Bad</option>
-            </select>
+        <select name="q-score" id="qscore" required>
+            <option value="">Select</option>
+            <option value="good">Good</option>
+            <option value="average">Average</option>
+            <option value="bad">Bad</option>
+        </select>
         <label class="label" for="form_info">Feedback</label>
-             <textarea id="form_info" cols=50 rows=10 name="form_info" placeholder=" What are your thoughts on the quiz?" required></textarea>
+        <textarea id="form_info" cols=50 rows=10 name="form_info" placeholder=" What are your thoughts on the quiz?"
+            required></textarea>
         <br>
         <input id="submit_form" type="submit" value="Submit">
         <input id="clear_form" type="reset" value="Clear">
@@ -37,7 +42,9 @@
 
     <a id="home_button" href="index.html">Home</a>
 
-
+    <!-- font awesome script -->
+    <script src="https://kit.fontawesome.com/07d7b4dbd0.js" crossorigin="anonymous"></script>
+    <!-- js script -->
     <script src="assets/js/script.js"></script>
 </body>
 
