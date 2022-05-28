@@ -143,6 +143,7 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
     <li>Galaxy S8.</li>
     <li>Galazy S21 Ultra.</li>
     <li>Iphone SE.</li>
+    <li>Iphone 4.</li>
     <li>Iphone 12 Pro.</li>
     <li>Ipad Air</li>
     <li>Surface Pro 7</li>
@@ -159,13 +160,18 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 ![W3C CSS](/assets/images/css.jpg)
     <li><a href="https://developers.google.com/web/tools/lighthouse" target="_blank" rel="noopener">Google Chrome Lighthouse</a></li>
 
-![Lighthouse Test](/assets/images/lighthouse.jpg) 
+![Lighthouse Test](/assets/images/lighthouse.jpg)
+    <li><a href="https://jshint.com/" target="_blank" rel="noopener">JSHint Javascript Validation Service</a></li>
+    
+![JSHint](/assets/images/jshint.jpg)
 </ul>
 
 <h2>Bugs & Fixes</h2>
 <ul>
    <li>W3C HTML picked up a br within a h2 and threw an error so fixed by removing the br from quiz.html.</li>
    <li>Mozilla Firefox - the home feedback and clear buttons were too high and cutting into the feedback form box, fixed by adjusting css.</li>
+   <li> JSHint showed me multiple errors in my code involving issues regarding undefined and unused variables. Fixed said errors one by one by declaring and defining variables</li>
+   <li>W3C HTML showed issues with Feedback.html regarding my labels couldnt find the input id's fixed by adding id's to the inputs.</li>
 </ul>
 
 <h2>Known Bugs</h2>
