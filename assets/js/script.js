@@ -9,6 +9,8 @@
 
         const answers = [];
 
+        var letter = (letter in currentQuestion.answers);
+
         for (letter in currentQuestion.answers) {
 
           // open box of answers and display as a radio list
@@ -37,11 +39,12 @@
 
   //  shuffle questions each DOM load
   function shuffleQuestions(theQuestions) {
-    var dead = theQuestions.splice(Math.floor(Math.random() * theQuestions.length), 6);
+    var questions = theQuestions.splice(Math.floor(Math.random() * theQuestions.length), 6);
     for (let i = theQuestions.length - 1; i > 0; i--) {
       const swap = Math.floor(Math.random() * (i + 1));
       [theQuestions[i], theQuestions[swap]] = [theQuestions[swap], theQuestions[i]];
     }
+    return questions;
   }
   //--------Slides---------------------------------------------------------------------------------------------------------------
   function showSlide(n) {
@@ -216,13 +219,13 @@
 
     // message depending on how the user did
     if (numCorrect >= 6) {
-      document.getElementById("modal-t").innerText = "CONGRATULATIONS! \nYou are an automotive quiz champion! \nThanks for playing."
+      document.getElementById("modal-t").innerText = "CONGRATULATIONS! \nYou are an automotive quiz champion! \nThanks for playing.";
     } else if (numCorrect === 5) {
-      document.getElementById("modal-t").innerText = "Good Job! \nYou've Almost got it \nMaybe you will do better next time? \nThanks for playing."
+      document.getElementById("modal-t").innerText = "Good Job! \nYou've Almost got it \nMaybe you will do better next time? \nThanks for playing.";
     } else if (numCorrect === 3) {
-      document.getElementById("modal-t").innerText = "Not Bad! \nStill room for improvment \nMaybe you will do better next time? \nThanks for playing."
+      document.getElementById("modal-t").innerText = "Not Bad! \nStill room for improvment \nMaybe you will do better next time? \nThanks for playing.";
     } else {
-      document.getElementById("modal-t").innerText = "Oh Dear :( \nIt looks like you have a lot to learn \n Why not try again after some research? \nThanks for playing."
+      document.getElementById("modal-t").innerText = "Oh Dear :( \nIt looks like you have a lot to learn \n Why not try again after some research? \nThanks for playing.";
       document.getElementById("circle").innerText = "Why dont you go back through and see what you got wrong? By using the Previous Button";
     }
 
@@ -254,12 +257,12 @@
   // Hide the modal
   span.onclick = function () {
     modal.style.display = "none";
-  }
+  };
   window.onclick = function (event) {
     if (event.target == modal) {
       modal.style.display = "none";
     }
-  }
+  };
 
   // ----------------Event listeners-----------------------------------------------------------------------------------------------
   submitButton.addEventListener("click", showResults);
